@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+form{
+    
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200%;
+    
+}
+.container{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+button{
+    background-color: green;
+    margin-left: 4px;
+    width: 80%;
+    height: 40%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+form{
+    background-color: cadetblue;
+}
+input[type=text], input[type= password], input[type=otp]{
+    width: 80%;
+    padding: 10px 10px;
+}

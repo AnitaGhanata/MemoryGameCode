@@ -1,0 +1,70 @@
+
+h1{
+    text-align: center;
+}
+form{
+    
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #588c7d;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+input[type=text], input[type= password] {
+  width: 80%;
+  padding: 12px 10px; 
+  margin: 10px 0;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: hsl(158, 95%, 34%);
+    color: white;
+    padding: 14px 20px; 
+    padding-left: 10px;
+    margin: 8px 0;
+    margin-left: 20%;
+    margin-right: 40%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .container {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  span.psw {
+    float: right;
+    padding-right: 20px;
+    
+  }
+  span.account{
+    margin-left: 30%;
+    
+  }
+  
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    
+  }
+  
+  

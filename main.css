@@ -1,0 +1,33 @@
+h1{
+    align-items: center;
+    color: green;
+    text-decoration-thickness: 10px;
+    text-shadow: 2px 2px 5px red;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    margin-top: 15%;
+    font-size: 60px;
+    padding-left: 35%;
+}
+
+p{
+    align-items: center;
+    text-decoration-thickness: 10px;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-left: 35%;
+}
+
+button{
+    margin-left: 40%;
+    background-color: green;
+    cursor: pointer;
+    padding: 6px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
